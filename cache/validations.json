@@ -1,0 +1,46 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/Hello_swtr.sol:Swisstronik": {
+        "src": "contracts/Hello_swtr.sol:4",
+        "version": {
+          "withMetadata": "c1e662b3991dfa797135bac78d714c1939c6201623d4a535ed4ca43d997440c1",
+          "withoutMetadata": "472c056c09b2c2bba804837b8870cf765e7f0273c13567127dba807fe19ed08f",
+          "linkedWithoutMetadata": "472c056c09b2c2bba804837b8870cf765e7f0273c13567127dba807fe19ed08f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialize(string)",
+          "setMessage(string)",
+          "getMessage()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "Swisstronik",
+              "src": "contracts/Hello_swtr.sol:5"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      }
+    }
+  ]
+}
